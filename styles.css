@@ -16,7 +16,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: red;
+    background: linear-gradient(45deg,#0a0a0a , #3a4452);
     border: none;
 }
 
@@ -25,7 +25,6 @@ body{
     padding: 20px;
     border-radius: 16px;
     box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
-     background-color:red;
 }
 input{
     
@@ -82,7 +81,7 @@ button{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    }
+    } 
 
     button{
         border: none;
@@ -96,7 +95,7 @@ button{
         color: #ffffff;
         font-size: 12px;
         text-align: center;
-        box-shadow: red;
+        box-shadow: #0a4452;
         box-shadow: 3px -3px 15px rgb(255, 255, 255,0.2);
     }
     input{
